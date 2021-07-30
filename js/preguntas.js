@@ -1,4 +1,31 @@
-const myQuestions = [
+export const objQuestions = [
+    {
+        "pregunta": "¿Quién pintó el famoso cuadro La última cena?",
+        "respuestas": {
+            "a" : "Rembrandt",
+            "b" : "Velazquez",
+            "c" : "Leonardo da Vinci",
+        },
+        "respuestaC": "Leonardo da Vinci"
+    },
+    {
+        "pregunta": "¿Quién fue el primer emperador romano?",
+        "respuestas": {
+            "a" : "César Augusto",
+            "b" : "Julio Cesar",
+            "c" : "Marco Aurelia",
+        },
+        "respuestaC": "César Augusto."
+    },
+    {
+        "pregunta": "¿Cuál fue el primer hombre en ir a la luna?",
+        "respuestas": {
+            "a" : "Louis Armstrong",
+            "b" : "Neil Armstrong",
+            "c" : "Michael Armstrong",
+        },
+        "respuestaC": "Neil Armstrong"
+    },
     {
         "pregunta": "¿En qué año el hombre pisó la Luna por primera vez?",
         "respuestas": {
@@ -11,20 +38,20 @@ const myQuestions = [
     {
         "pregunta": "¿Cuánto duró la Guerra de los Cien Años?",
         "respuestas": {
-            "a" : "100 años",
+            "a" : "101 años",
             "b" : "100 años",
             "c" : "116 años",
         },
-        "respuestaC": "100 años"
+        "respuestaC": "116 años"
     },
     {
-        "pregunta": "¿En qué año se creó la Organización de las Naciones Unidas?",
+        "pregunta": "¿Cuál es la ciudad de los rascacielos?",
         "respuestas": {
-            "a" : "1942",
-            "b" : "1945",
-            "c" : "1950",
+            "a" : "Tokio",
+            "b" : "New York",
+            "c" : "Hong Kong",
         },
-        "respuestaC": "1945"
+        "respuestaC": "New York"
     },
     {
         "pregunta": "¿Cuál es la lengua más hablada del mundo?",
@@ -36,13 +63,13 @@ const myQuestions = [
         "respuestaC": "Chino Mandarin"
     },
     {
-        "pregunta": "¿Dónde podemos encontrar la Casa Rosada?",
+        "pregunta": "¿Cuál es la ciudad italiana conocida como «la novia del mar»?",
         "respuestas": {
-            "a" : "Estados Unidos",
-            "b" : "España",
-            "c" : "Argentina",
+            "a" : "Roma",
+            "b" : "Florencia",
+            "c" : "Venecia",
         },
-        "respuestaC": "Argentina"
+        "respuestaC": "Venecia"
     },
     {
         "pregunta": "¿Cuál es el país de mayor tamaño del mundo?",

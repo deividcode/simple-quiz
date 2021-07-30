@@ -5,83 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Quiz</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Zilla+Slab:wght@500;600&display=swap" rel="stylesheet">
+    <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/app.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <!-- Javascript -->
+    <script src="js/app.js" type="module"></script>
 
 </head>
 <body>
-
+    
     <header class="header">
+
         <div class="marca">
-            <h2>Simple Quiz</h2>
+
+            <h2>S.Q: Simple Quiz  </h2>
+
             <svg width="35" height="40" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
             </svg>
         </div>
     </header>
+    <main class="main">        
+        <div id="slider">
+            
+            <form id="formulario">
 
-    <main class="main">
-
-        <!-- CAJA -->
-        <div class="caja">
-
-            <!-- FORMULARIO -->
-            <form action="" id="formulario">
-    
                 <div class="contenedor-preguntas">
-    
-                    <div class="pregunta">
-                        
-                        <h4>¿En qué año el hombre pisó la Luna por primera vez?</h4>
-
-                        <div class="opciones">
-
-                            <label class="opciones-respuesta">
-                                1973 <br>
-                                <input type="radio" name="respuestas" class="respuesta__input" value="1973">                     
-                            </label>
-                            
-                            <label class="opciones-respuesta">
-                                1969 <br>
-                                <input type="radio" name="respuestas" class="respuesta-input" value="1969">
-                            </label>
-
-                            <label class="opciones-respuesta">
-                                1965 <br>
-                                <input type="radio" name="respuestas" class="respuesta-input" value="1965">
-                            </label>
-
-                        </div>
-
-                    </div>
-    
+                                                                        
                     <div class="flechas">
-                        <a href="" class="siguiente">Siguiente >></a>                    
+                        <span class="btn-siguiente">Siguiente <box-icon name='left-arrow' type='solid' rotate='180' color='rgba(239,239,239,0.89)' ></box-icon></span>                    
                     </div>
-    
+                    
                 </div>
 
-                <!-- <div class="contenedor-pregunta">
-    
-                    <div class="pregunta">
-                        <a href="" class="anterior"></a>
-                        <a href="" class="siguiente"></a>
+                <div class="contenedor-preguntas">                    
+
+                    <div class="flechas">
+                        <span class="btn-anterior"><box-icon name='left-arrow' type='solid' color='rgba(239,239,239,0.89)' ></box-icon> Anterior </span>                    
+                        <span class="btn-siguiente">Siguiente <box-icon name='left-arrow' type='solid' rotate='180' color='rgba(239,239,239,0.89)' ></box-icon></span>                    
                     </div>
-    
+
                 </div>
-                <div class="contenedor-pregunta">
-    
-                    <div class="pregunta">
-                        <a href="" class="anterior"></a>
-                        <button type="submit" class="enviar_formulario"></button>
+
+                <div class="contenedor-preguntas">                    
+
+                    <div class="flechas">
+                        <span class="btn-anterior"><box-icon name='left-arrow' type='solid' color='rgba(239,239,239,0.89)' ></box-icon> Anterior </span>                    
+                        <span class="btn-siguiente">Siguiente <box-icon name='left-arrow' type='solid' rotate='180' color='rgba(239,239,239,0.89)' ></box-icon></span>                    
                     </div>
-    
-                </div>                     -->
-    
+
+                </div>
+                <div class="contenedor-preguntas">                    
+
+                    <div class="flechas">
+                        <span class="btn-anterior"><box-icon name='left-arrow' type='solid' color='rgba(239,239,239,0.89)' ></box-icon> Anterior </span>                    
+                        <span class="btn-siguiente">Siguiente <box-icon name='left-arrow' type='solid' rotate='180' color='rgba(239,239,239,0.89)' ></box-icon></span>                    
+                    </div>
+
+                </div>
+
+                <div class="contenedor-preguntas">                    
+
+                    <div class="flechas">
+                        <span class="btn-anterior"> <box-icon name='left-arrow' type='solid' color='rgba(239,239,239,0.89)' ></box-icon> Anterior </span>                    
+                        <button type="submit" id="btn-enviar">Enviar Respuesta >></button>                    
+                    </div>
+
+                </div>                 
+
             </form>
-    
+
         </div>
-    </main>
+        <div class="sk-circle hidden">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+    </main>                
+        
+         
     
+                  
+
 </body>
 </html>
